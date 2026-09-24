@@ -13,10 +13,12 @@
   <!-- ==========================================================================
        GLOBAL STICKY HEADER & NAVIGATION
        ========================================================================== -->
-  <header class="site-header" id="siteHeader">
+  <header class="site-header header-dark" id="siteHeader">
     <div class="container nav-container">
       <a href="index.html" class="brand-logo" aria-label="Mirelle Lucien Home">
-        <div class="logo-badge">M</div>
+        <div class="logo-badge">
+          <img src="assets/images/mirelle-logo.jpg" alt="Mirelle Lucien" class="logo-badge-img">
+        </div>
         <div class="brand-text-wrap">
           <span class="brand-name">Mirelle Lucien<span>.</span></span>
           <span class="brand-sub">Grant & Funding Consultant</span>
@@ -35,7 +37,7 @@
 
       <!-- Header Action & Mobile Trigger -->
       <div class="nav-actions">
-        <a href="contact.html?service=consultation" class="btn btn-primary">
+        <a href="contact.html?service=consultation" class="btn btn-primary btn-header-glow">
           <span>Book a Consultation</span>
           <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -56,7 +58,9 @@
   <aside class="mobile-drawer" aria-label="Mobile Navigation">
     <div class="drawer-header" style="display: flex; justify-content: space-between; align-items: center;">
       <a href="index.html" class="brand-logo">
-        <div class="logo-badge">M</div>
+        <div class="logo-badge">
+          <img src="assets/images/mirelle-logo.jpg" alt="Mirelle Lucien" class="logo-badge-img">
+        </div>
         <div class="brand-text-wrap">
           <span class="brand-name">Mirelle Lucien<span>.</span></span>
           <span class="brand-sub">Grant Consultant</span>
@@ -79,16 +83,27 @@
   </aside>
 
   <!-- ==========================================================================
-       HERO SECTION: REVOLUTION-SLIDER-STYLE CINEMATIC ANIMATION
+       HERO SECTION: SLIDER REVOLUTION CINEMATIC PRESENTATION
        ========================================================================== -->
-  <section class="hero-slider-section" id="heroSlider" aria-label="Featured Presentations">
-    <!-- Ambient Backdrop Blobs -->
-    <div class="hero-ambient-wrap">
-      <div class="hero-gradient-blob-1"></div>
-      <div class="hero-gradient-blob-2"></div>
+  <section class="hero-slider-section" id="heroSlider" aria-label="Mirelle Lucien Grant Consulting Showcase">
+    <!-- Atmospheric Ambient Lighting & Geometric Accents -->
+    <div class="hero-canvas-wrap" aria-hidden="true">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-glow hero-glow-3"></div>
+      <div class="hero-grid-pattern"></div>
+      <div class="hero-light-streak streak-1"></div>
+      <div class="hero-light-streak streak-2"></div>
+      
+      <!-- Abstract Floating Technical Accents -->
+      <span class="tech-crosshair cross-1">+</span>
+      <span class="tech-crosshair cross-2">+</span>
+      <span class="tech-crosshair cross-3">+</span>
+      <div class="tech-corner-accent corner-tl"></div>
+      <div class="tech-corner-accent corner-br"></div>
     </div>
 
-    <!-- Navigation Circular Buttons (Matching Reference Design) -->
+    <!-- Navigation Circular Buttons (Cinematic Glass Controls) -->
     <button class="slider-nav-btn slider-nav-prev" aria-label="Previous Slide">
       <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
@@ -102,42 +117,53 @@
 
     <div class="container slider-viewport">
       
-      <!-- ==================== SLIDE 1 ==================== -->
+      <!-- ==================== SLIDE 1: OVERALL GRANT EXPERTISE ==================== -->
       <article class="hero-slide active" data-slide="0">
         <div class="slide-grid">
           <!-- Slide Left Content -->
           <div class="slide-content">
-            <div class="slide-eyebrow">
-              <svg class="slide-eyebrow-icon" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V8z" clip-rule="evenodd" />
-              </svg>
-              <span>GRANT WRITING • RESEARCH • FUNDING STRATEGY</span>
+            <!-- Professional Title Line -->
+            <div class="slide-pro-bar">
+              <span class="pro-tag">GRANT WRITER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">GRANT RESEARCHER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">PROPOSAL WRITER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">GRANT CONSULTANT</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">NONPROFIT FUNDING SPECIALIST</span>
             </div>
 
             <h1 class="slide-title">
-              Turning Funding Opportunities Into <span class="text-gradient">Meaningful Impact.</span>
+              <span class="line-reveal-wrap"><span class="rev-line line-1">Empowering Ideas.</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-2">Funding Dreams.</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-3 text-gradient-teal">Creating Impact.</span></span>
             </h1>
 
             <p class="slide-desc">
-              Mirelle Lucien helps individuals, nonprofits and mission-driven organizations discover funding opportunities, develop compelling proposals and approach grant applications with clarity and strategy.
+              I help individuals, organizations, and businesses identify funding opportunities, develop compelling proposals, and navigate the grant process with confidence.
             </p>
 
             <div class="slide-ctas">
-              <a href="contact.html?service=consultation" class="btn btn-primary">
-                <span>Book a Consultation</span>
+              <a href="contact.html?service=research" class="btn btn-primary btn-glow">
+                <span>Request Grant Research</span>
                 <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </a>
-              <a href="services.html" class="btn btn-secondary">
-                <span>Explore Services</span>
+              <a href="contact.html?service=consultation" class="btn btn-glass">
+                <span>Book a Consultation</span>
+                <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             </div>
 
             <div class="slide-micro-features">
               <div class="micro-item">
                 <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span>Institutional Funding Fit</span>
               </div>
@@ -147,13 +173,22 @@
                 </svg>
                 <span>Persuasive Grant Narratives</span>
               </div>
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
+                </svg>
+                <span>Global Funder Reach</span>
+              </div>
             </div>
           </div>
 
           <!-- Slide Right Editorial Visual -->
           <div class="slide-visual-wrapper">
             <div class="editorial-composition">
-              <div class="visual-backdrop-shape"></div>
+              <!-- Flowing Teal Light Aura Behind Portrait -->
+              <div class="visual-backdrop-aura"></div>
+              <div class="visual-orbit-ring ring-1"></div>
+              <div class="visual-orbit-ring ring-2"></div>
               
               <!-- Floating Top Badge -->
               <div class="hero-floating-badge-top">
@@ -164,18 +199,27 @@
                 </div>
                 <div>
                   <div class="badge-text-primary">Grant & Funding Specialist</div>
-                  <div class="badge-text-sub">Global Strategy & Narrative</div>
+                  <div class="badge-text-sub">Global Strategy & High Conversion</div>
                 </div>
               </div>
 
               <!-- Editorial Portrait Frame -->
               <div class="portrait-card-frame">
-                <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Strategic Grant Consultant" class="portrait-img">
+                <div class="portrait-inner-mask">
+                  <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Strategic Grant Consultant & Funding Specialist" class="portrait-img">
+                  <div class="portrait-cinematic-vignette"></div>
+                </div>
+              </div>
+
+              <!-- Subtle Supporting Phrase Near Portrait -->
+              <div class="hero-supporting-phrase">
+                <span class="phrase-sparkle">✦</span>
+                <span class="phrase-text">Your Goals. My Expertise. Our Impact.</span>
               </div>
 
               <!-- Floating Bottom Badge -->
               <div class="hero-floating-badge-bottom">
-                <div class="badge-icon-wrap" style="background: #E0F2FE; color: #0284C7;">
+                <div class="badge-icon-wrap">
                   <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
@@ -196,35 +240,41 @@
         </div>
       </article>
 
-      <!-- ==================== SLIDE 2 ==================== -->
+      <!-- ==================== SLIDE 2: GRANT RESEARCH & OPPORTUNITIES ==================== -->
       <article class="hero-slide" data-slide="1">
         <div class="slide-grid">
           <!-- Slide Left Content -->
           <div class="slide-content">
-            <div class="slide-eyebrow">
-              <svg class="slide-eyebrow-icon" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
-              </svg>
-              <span>STRATEGIC GRANT RESEARCH</span>
+            <div class="slide-pro-bar">
+              <span class="pro-tag">GRANT RESEARCHER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">PROSPECT IDENTIFICATION</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">ELIGIBILITY AUDITING</span>
             </div>
 
             <h2 class="slide-title">
-              Find Opportunities That <span class="text-gradient">Fit Your Mission.</span>
+              <span class="line-reveal-wrap"><span class="rev-line line-1">Find the Right</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-2 text-gradient-teal">Funding Opportunities.</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-3 text-white-dim">Targeted. Vetted. Verified.</span></span>
             </h2>
 
             <p class="slide-desc">
-              Research relevant funding opportunities and understand eligibility, requirements and deadlines before investing valuable time in an application.
+              Uncover high-alignment grants, navigate funder priorities, and evaluate eligibility requirements with rigorous due diligence before dedicating valuable time and resources.
             </p>
 
             <div class="slide-ctas">
-              <a href="contact.html?service=research" class="btn btn-primary">
+              <a href="contact.html?service=research" class="btn btn-primary btn-glow">
                 <span>Request Grant Research</span>
                 <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </a>
-              <a href="services.html#grant-research" class="btn btn-secondary">
+              <a href="services.html#grant-research" class="btn btn-glass">
                 <span>View Research Methodology</span>
+                <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             </div>
 
@@ -233,7 +283,7 @@
                 <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
-                <span>Funder Dossiers & Alignment</span>
+                <span>Funder Dossiers & Fit</span>
               </div>
               <div class="micro-item">
                 <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -241,13 +291,20 @@
                 </svg>
                 <span>Deadline & Compliance Mapping</span>
               </div>
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <span>Comprehensive Due Diligence</span>
+              </div>
             </div>
           </div>
 
           <!-- Slide Right Editorial Visual -->
           <div class="slide-visual-wrapper">
             <div class="editorial-composition">
-              <div class="visual-backdrop-shape"></div>
+              <div class="visual-backdrop-aura aura-research"></div>
+              <div class="visual-orbit-ring ring-1"></div>
               
               <div class="hero-floating-badge-top">
                 <div class="badge-icon-wrap">
@@ -257,64 +314,78 @@
                 </div>
                 <div>
                   <div class="badge-text-primary">Targeted Prospecting</div>
-                  <div class="badge-text-sub">Funder Matrix & Due Diligence</div>
+                  <div class="badge-text-sub">Funder Matrix & Pre-Qualification</div>
                 </div>
               </div>
 
               <div class="portrait-card-frame">
-                <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Strategic Grant Researcher" class="portrait-img">
+                <div class="portrait-inner-mask">
+                  <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Strategic Grant Researcher" class="portrait-img">
+                  <div class="portrait-cinematic-vignette"></div>
+                </div>
+              </div>
+
+              <div class="hero-supporting-phrase">
+                <span class="phrase-sparkle">✦</span>
+                <span class="phrase-text">Intelligence Before Application.</span>
               </div>
 
               <div class="hero-floating-badge-bottom">
-                <div class="badge-icon-wrap" style="background: #CCFBF1; color: #0F766E;">
+                <div class="badge-icon-wrap">
                   <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
                   <div class="badge-text-primary">100% Calendar Accuracy</div>
-                  <div class="badge-text-sub">Never Miss a Deadline</div>
+                  <div class="badge-text-sub">Never Miss a Critical Deadline</div>
                 </div>
               </div>
 
               <div class="worldwide-pill">
                 <span class="worldwide-dot"></span>
-                <span>Serving Clients Worldwide</span>
+                <span>Active Opportunity Radar</span>
               </div>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- ==================== SLIDE 3 ==================== -->
+      <!-- ==================== SLIDE 3: PROPOSAL WRITING & GRANT NARRATIVES ==================== -->
       <article class="hero-slide" data-slide="2">
         <div class="slide-grid">
           <!-- Slide Left Content -->
           <div class="slide-content">
-            <div class="slide-eyebrow">
-              <svg class="slide-eyebrow-icon" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-              </svg>
-              <span>PROPOSALS THAT COMMUNICATE IMPACT</span>
+            <div class="slide-pro-bar">
+              <span class="pro-tag">PROPOSAL WRITER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">GRANT WRITER</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">THEORY OF CHANGE SPECIALIST</span>
             </div>
 
             <h2 class="slide-title">
-              Give Your Ideas a <span class="text-gradient">Stronger Funding Story.</span>
+              <span class="line-reveal-wrap"><span class="rev-line line-1">Turn Your Ideas</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-2 text-gradient-teal">Into Fundable Proposals.</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-3 text-white-dim">Compelling. Compliant. Winning.</span></span>
             </h2>
 
             <p class="slide-desc">
-              From proposal development to funding strategy, get professional support designed to communicate your purpose, need and potential impact clearly.
+              Translate complex organizational visions into compelling, compliant grant narratives complete with robust Theories of Change, measurable milestones, and defensible budgets.
             </p>
 
             <div class="slide-ctas">
-              <a href="contact.html?service=writing" class="btn btn-primary">
-                <span>Hire Me for Grant Writing</span>
+              <a href="contact.html?service=writing" class="btn btn-primary btn-glow">
+                <span>Request Proposal Writing</span>
                 <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </a>
-              <a href="services.html#proposal-writer" class="btn btn-secondary">
-                <span>Proposal Samples & Scope</span>
+              <a href="contact.html?service=consultation" class="btn btn-glass">
+                <span>Book a Consultation</span>
+                <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             </div>
 
@@ -323,13 +394,19 @@
                 <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                 </svg>
-                <span>Theory of Change & Metrics</span>
+                <span>Theory of Change & MEL</span>
               </div>
               <div class="micro-item">
                 <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
-                <span>Clear Budget Justifications</span>
+                <span>Defensible Budget Justifications</span>
+              </div>
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span>Strict Compliance Review</span>
               </div>
             </div>
           </div>
@@ -337,7 +414,9 @@
           <!-- Slide Right Editorial Visual -->
           <div class="slide-visual-wrapper">
             <div class="editorial-composition">
-              <div class="visual-backdrop-shape"></div>
+              <div class="visual-backdrop-aura aura-proposal"></div>
+              <div class="visual-orbit-ring ring-1"></div>
+              <div class="visual-orbit-ring ring-2"></div>
               
               <div class="hero-floating-badge-top">
                 <div class="badge-icon-wrap">
@@ -347,29 +426,148 @@
                 </div>
                 <div>
                   <div class="badge-text-primary">Impact-Driven Narrative</div>
-                  <div class="badge-text-sub">Funder-Centric Storytelling</div>
+                  <div class="badge-text-sub">Funder-Centric Articulation</div>
                 </div>
               </div>
 
               <div class="portrait-card-frame">
-                <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Proposal Specialist" class="portrait-img">
+                <div class="portrait-inner-mask">
+                  <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Proposal Specialist" class="portrait-img">
+                  <div class="portrait-cinematic-vignette"></div>
+                </div>
+              </div>
+
+              <div class="hero-supporting-phrase">
+                <span class="phrase-sparkle">✦</span>
+                <span class="phrase-text">Narratives That Secure Capital.</span>
               </div>
 
               <div class="hero-floating-badge-bottom">
-                <div class="badge-icon-wrap" style="background: #E0F2FE; color: #0369A1;">
+                <div class="badge-icon-wrap">
                   <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <div>
-                  <div class="badge-text-primary">Review Ready</div>
-                  <div class="badge-text-sub">Rigorous Polish & Compliance</div>
+                  <div class="badge-text-primary">Review-Ready Polish</div>
+                  <div class="badge-text-sub">Rigorous Red-Team Auditing</div>
                 </div>
               </div>
 
               <div class="worldwide-pill">
                 <span class="worldwide-dot"></span>
-                <span>Serving Clients Worldwide</span>
+                <span>Worldwide Proposal Submission</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ==================== SLIDE 4: GRANT CONSULTING & FUNDING STRATEGY ==================== -->
+      <article class="hero-slide" data-slide="3">
+        <div class="slide-grid">
+          <!-- Slide Left Content -->
+          <div class="slide-content">
+            <div class="slide-pro-bar">
+              <span class="pro-tag">GRANT CONSULTANT</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">NONPROFIT FUNDING SPECIALIST</span>
+              <span class="pro-sep">•</span>
+              <span class="pro-tag">CAPACITY BUILDING</span>
+            </div>
+
+            <h2 class="slide-title">
+              <span class="line-reveal-wrap"><span class="rev-line line-1">Build a Stronger</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-2 text-gradient-teal">Path to Funding.</span></span>
+              <span class="line-reveal-wrap"><span class="rev-line line-3 text-white-dim">Strategic. Scalable. Sustainable.</span></span>
+            </h2>
+
+            <p class="slide-desc">
+              Equip your nonprofit or enterprise with strategic readiness audits, diversified revenue streams, and funder stewardship frameworks designed for sustained multi-year growth.
+            </p>
+
+            <div class="slide-ctas">
+              <a href="contact.html?service=consultation" class="btn btn-primary btn-glow">
+                <span>Book a Consultation</span>
+                <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+              <a href="services.html#grant-consultant" class="btn btn-glass">
+                <span>Explore Consulting Scope</span>
+                <svg class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="slide-micro-features">
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+                <span>Institutional Readiness Audits</span>
+              </div>
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+                <span>Diversified Revenue Models</span>
+              </div>
+              <div class="micro-item">
+                <svg class="micro-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                <span>Funder Stewardship Roadmaps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Right Editorial Visual -->
+          <div class="slide-visual-wrapper">
+            <div class="editorial-composition">
+              <div class="visual-backdrop-aura aura-consulting"></div>
+              <div class="visual-orbit-ring ring-1"></div>
+              
+              <div class="hero-floating-badge-top">
+                <div class="badge-icon-wrap">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="badge-text-primary">Funding Readiness</div>
+                  <div class="badge-text-sub">Institutional Capacity Strategy</div>
+                </div>
+              </div>
+
+              <div class="portrait-card-frame">
+                <div class="portrait-inner-mask">
+                  <img src="assets/images/mirelle-portrait.jpg" alt="Mirelle Lucien — Nonprofit Funding Specialist" class="portrait-img">
+                  <div class="portrait-cinematic-vignette"></div>
+                </div>
+              </div>
+
+              <div class="hero-supporting-phrase">
+                <span class="phrase-sparkle">✦</span>
+                <span class="phrase-text">Strategy That Builds Longevity.</span>
+              </div>
+
+              <div class="hero-floating-badge-bottom">
+                <div class="badge-icon-wrap">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="badge-text-primary">Diversified Capital</div>
+                  <div class="badge-text-sub">Multi-Year Donor Stewardship</div>
+                </div>
+              </div>
+
+              <div class="worldwide-pill">
+                <span class="worldwide-dot"></span>
+                <span>Advising Across 4 Continents</span>
               </div>
             </div>
           </div>
@@ -383,28 +581,37 @@
       <div class="container slider-control-inner">
         <!-- Progress Bar & Slide Counter -->
         <div class="slider-progress-wrap">
-          <span class="slide-counter"><span class="counter-current">01</span> / 03</span>
+          <span class="slide-counter"><span class="counter-current">01</span> / 04</span>
           <div class="slide-progress-track">
             <div class="slide-progress-fill"></div>
           </div>
+          <!-- Accessibility Play/Pause Toggle -->
+          <button class="slider-pause-btn" aria-label="Pause slideshow" title="Pause / Resume Slideshow">
+            <svg class="pause-icon" fill="currentColor" viewBox="0 0 20 20" width="14" height="14">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+            </svg>
+            <svg class="play-icon hide" fill="currentColor" viewBox="0 0 20 20" width="14" height="14">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+            </svg>
+          </button>
         </div>
 
         <!-- Slide Dots -->
         <div class="slider-dots" role="tablist" aria-label="Slide Selector">
-          <button class="slider-dot active" data-index="0" role="tab" aria-label="Slide 1" aria-current="true"></button>
-          <button class="slider-dot" data-index="1" role="tab" aria-label="Slide 2"></button>
-          <button class="slider-dot" data-index="2" role="tab" aria-label="Slide 3"></button>
+          <button class="slider-dot active" data-index="0" role="tab" aria-label="Slide 1: Overall Grant Expertise" aria-current="true"></button>
+          <button class="slider-dot" data-index="1" role="tab" aria-label="Slide 2: Strategic Grant Research"></button>
+          <button class="slider-dot" data-index="2" role="tab" aria-label="Slide 3: Proposal Writing & Narratives"></button>
+          <button class="slider-dot" data-index="3" role="tab" aria-label="Slide 4: Grant Consulting Strategy"></button>
         </div>
       </div>
     </div>
 
-    <!-- Centered Scroll Indicator (Matching Reference Image) -->
-    <a href="#introduction" class="hero-scroll-indicator" aria-label="Scroll to content">
-      <div class="scroll-indicator-circle">
-        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
+    <!-- Centered Scroll Down Indicator (Matching Reference Aesthetic) -->
+    <a href="#introduction" class="hero-scroll-indicator" aria-label="Scroll to introduction section">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
       </div>
+      <span class="scroll-label">Scroll to explore</span>
     </a>
   </section>
 
@@ -1006,7 +1213,9 @@
         <!-- Col 1: Brand Info -->
         <div class="footer-col-brand">
           <a href="index.html" class="brand-logo" style="margin-bottom: 1.25rem;">
-            <div class="logo-badge" style="box-shadow: none;">M</div>
+            <div class="logo-badge" style="box-shadow: none;">
+              <img src="assets/images/mirelle-logo.jpg" alt="Mirelle Lucien" class="logo-badge-img">
+            </div>
             <div class="brand-text-wrap">
               <span class="brand-name" style="color: #FFFFFF;">Mirelle Lucien<span style="color: var(--primary-teal-light);">.</span></span>
               <span class="brand-sub" style="color: var(--text-subtle);">Grant & Funding Specialist</span>
